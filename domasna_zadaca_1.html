@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>&quotDado Tea&quot Lunch Order</title>
+    <meta name="keywords" content="lunch, order, tea, food, low price, sandwiches, gluten free">
+    <meta name="description" content="This website helps you order your healthy food from Dado Tea, 
+            with options for taking your food to-go or eating it in-restaurant.">
+</head>
+
+<body>
+    <fieldset>
+        <header>
+            <table>
+                <thead>
+                    <tr>
+                        <th><img src="dadotea1.webp" alt="Dado Tea Logo"> </th>
+                        <th>
+                            <h1>&nbsp&nbsp&nbsp&nbsp</h1>
+                        </th>
+                        <!--za da ima rastojanie pomegju logoto i headerot-->
+                        <th>
+                            <h1>&quotDado Tea&quot Lunch Special</h1>
+                        </th>
+                        <th>
+                            <h1>&nbsp&nbsp&nbsp&nbsp</h1>
+                        </th>
+                        <th><img src="dadotea1.webp" alt="Dado Tea Logo"> </th>
+                    </tr>
+                </thead>
+            </table>
+        </header>
+
+        <p>
+            Monday through Friday! <br>
+            11am - 3pm! <br>
+            $9.95 plus tax <br><br>
+            Includes <em>sandwiches, snack and drink.</em> Best <em>healthy lunch offer</em> in this city!
+        </p>
+
+        <form method="post" action="http://www.clover.com/online-ordering/dado-955-cambridge">
+            <!-- vistinski ordering site na Dado Tea-->
+            <input type="hidden" name="recipient" value="dadotea@gmail.com">
+            <input type="hidden" name="subject" value="Ordering Form">
+            <fieldset>
+                <legend><em>Order Information</em></legend>
+                <p>
+                    <label><strong>Name:</strong><br>
+                        <input name="name" type="text" size="25" placeholder="ex. Dushan Merdzanovski" />
+                    </label>
+                </p>
+                <p>
+                    <label><input name="location" type="radio" value="here">Here</label><br>
+                    <label><input name="location" type="radio" value="togo">To Go</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><em>Sandwiches</em></legend>
+                <p><strong>Monday</strong><br>
+                    <label><input name="sandwiches" type="radio" value="tomato">Tomato Mozzarela</label><br>
+                    <label><input name="sandwiches" type="radio" value="chickensal">Chicken Salad</label>
+                </p>
+                <p><strong>Tuesday</strong><br>
+                    <label><input name="sandwiches" type="radio" value="greeksalad">Greek Salad Wrap</label><br>
+                    <label><input name="sandwiches" type="radio" value="totowrap">Toto Wrap</label>
+                </p>
+                <p><strong>Wednesday</strong><br>
+                    <label><input name="sandwiches" type="radio" value="redpep">Red Pepper Hummus</label><br>
+                    <label><input name="sandwiches" type="radio" value="roastedturkey">Roasted Turkey</label>
+                </p>
+                <p><strong>Thursday</strong><br>
+                    <label><input name="sandwiches" type="radio" value="carrotginger">Carrot-Ginger Hummus
+                        Wrap</label><br>
+                    <label><input name="sandwiches" type="radio" value="eggsal">Egg Salad</label>
+                </p>
+                <p><strong>Friday</strong><br>
+                    <label><input name="sandwiches" type="radio" value="dadowr">Dado Wrap</label><br>
+                    <label><input name="sandwiches" type="radio" value="tunasal">Tuna Salad</label>
+                </p>
+                <hr>
+                <p>
+                    <label><input name="bread" type="checkbox" value="glutenfree">Gluten Free Bread(&cent75)</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend><em>Snack</em></legend>
+                <p>
+                    <strong>Snacks</strong><br>
+                    <label><input name="snacks" type="radio" value="apple">Apple</label><br>
+                    <label><input name="snacks" type="radio" value="banana">Banana</label><br>
+                    <label><input name="snacks" type="radio" value="potatochips">Potato Chips</label><br>
+                </p>
+                <hr>
+                <p>
+                    <strong>Sweet Dessert <mark>(unhealthy!)</mark></strong><sub> (additional +$2 charges apply if you
+                        check)</sub><br>
+                    <label><input name="dessert" type="radio" value="tiramisu">Tiramisu Cake</label><br>
+                    <label><input name="dessert" type="radio" value="choco">Chocolate-chip Cookies</label><br>
+                    <label><input name="dessert" type="radio" value="vanillaice">Vanilla Ice-cream</label><br>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend><em>Drink</em></legend>
+                <p>
+                    <label><strong>Drinks</strong><br>
+                        <select name="drinks">
+                            <option selected>Hot Black Tea - Keemun</option>
+                            <option>Chamomile Tea</option>
+                            <option>Green Tea</option>
+                            <option>Mountain Tea</option>
+                            <option>Matcha Tea</option>
+                        </select></label>
+                </p>
+                <hr>
+                <p>
+                    <label><input name="drink" type="checkbox" name="large">Large drink(75&cent extra)</label>
+                </p>
+            </fieldset>
+            <p>
+            <table>
+                <tr>
+                    <th><input type="submit" value="Place order"></th>
+                    <th>&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                    <th><img src="thank-you.webp" width="250" height="170" alt="Thank you for ordering with us!"></th>
+                </tr>
+            </table>
+            </p>
+        </form>
+        <footer>
+            <h6>&copy; by Dado Tea Co., All Rights Reserved.<h6>
+            <address>
+               Contact us at <a href = "mailto:dadotea@gmail.com">
+               dadotea@gmail.com</a>. Our phone number is (617) 497-9061.
+            </address>
+         </footer>
+    </fieldset>
+</body>
+</html>
