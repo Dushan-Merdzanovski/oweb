@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hare vs Tortoise Game</title>
+    <link rel="stylesheet" type="text/css" href="domasna_rabota_3.css">
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <script src="domasna_rabota_3.js"></script>
+</head>
+
+<body onload="start()">
+    
+    <img class="turtle" src="turtle.png" alt="Tortoise picture">
+    <img class="hare" src="hare.png" alt="Hare picture">
+    <header>
+        <div class="welcome">
+            <h1 class="multicolortext"><em>HARE <sub>vs</sub> TORTOISE</em></h1>
+            <h2>Welcome to the <em>race</em> of the century!</h2>
+        </div>
+    </header>
+
+    <span id="timer">TIMER:</span>
+    <span id="time">00.000</span>
+    <div class="racetrack"></div>
+    
+    <form action="#">
+        <input class="racethem" type="button" value="START RACE" onclick="startthetime(); startrace();" ></input>
+    </form>
+    <!-- onclick="startrace()" -->
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    background-color: darkslategray;
+    font-family: Varela;
+}
+
+header {
+    position: relative;
+    left: 35%;
+    right: 35%;
+    height: fit-content;
+    width: fit-content; 
+    color: darkgoldenrod;
+}
+
+h1.multicolortext {
+    background-image: linear-gradient(to right, darkred, darkred, darkgoldenrod, darkgreen, darkgreen);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+div.welcome {
+    margin-top: 50px;
+    text-align: center;
+    background-color: lightblue;
+    border: 3px solid black;
+    border-radius: 20%;
+    padding: 0px 2ex;
+}
+
+div.racetrack {
+    margin: 150px 36px;
+    position: relative;
+}   
+
+div.blocky {
+    display: block;
+    border: 2px solid black;
+    border-radius: 30%;
+    background-color: lightgoldenrodyellow;
+    /* position: relative; */
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 1px 1px;
+    /* padding: 1px 1px; */
+}
+
+input.racethem {
+    margin-left: 10em;
+    margin: 5em 26em;
+    background-color: darkred;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 70% 1%;
+    text-align: center; 
+    width: 20ex;
+    height: 4ex;
+}
+
+.racethem:hover {
+    background-color: green;
+}
+
+#time {
+    font-weight: bold;
+    position: relative;
+    font-size: 20pt;
+    text-align: center;
+    color: darkgray;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid black;
+    border-radius: 20%;
+    margin: 30px 30px ;
+    padding: 4px 4px;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    width:max-content;
+}
+
+#timer {
+    position: relative;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid black;
+    border-radius: 20%;
+    margin: 30px 30px ;
+    padding: 4px 4px;
+    position: absolute;
+    left: 40%;
+    right: auto;
+    width:max-content;
+}
+
+img.turtle {
+    position: absolute;
+    left: 70%;
+    margin-right: 50px;
+    width:25%;
+    height:280px ;
+}
+
+img.hare {
+    position: absolute;
+    left: 12%;
+    margin-left: 50px;
+    width:12%   ;
+    height:280px ;
+}
+
+#b69 {
+    background-color: green;
+}
+
+#harepic {
+    margin-top: 2px;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px; 
+}
+
+#turtlepic {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px; 
+}
