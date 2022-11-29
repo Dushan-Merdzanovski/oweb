@@ -1,0 +1,117 @@
+div.welcome {
+    /* background-color: #0e66c7; */
+    left: 25%;
+}
+
+div.welcome#pochetok {
+    /* white-space: nowrap; */
+    position: sticky;
+}
+
+div.welcome#welcome2 {
+    left: 10%;
+    margin-left: 3em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+}
+
+label {
+    font-size: 1.9em;
+}
+
+div img#slikaskijanje {
+    /*istiot id od home.css samo go nadograduvam*/
+    float: right;
+    position: relative;
+    border-radius: 100%;
+    right: 3%;
+}
+
+img#slikapersonal {
+    border: 3px solid black;
+    border-radius: 5%;
+/*     right: 30%;  */
+    left: 7%;
+    margin-left: 130px;
+    padding: 0px;
+    margin-top: 400px;
+    position: absolute;
+}
+
+img#slikaquestion {
+    border: 1px solid black;
+    border-radius: 20%;
+    float: right;
+    position: relative;
+    border-radius: 100%;
+    right: 30%;
+}
+
+h2.multicolortext1 {
+    background-image: linear-gradient(to right, black, #ea7c0f, #ea7c0f, #316d81, #ea7c0f, #ea7c0f);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+}
+
+label#l1 {
+    color: greenyellow;
+}
+
+label#l2 {
+    color: crimson;
+}
+
+div.welcome#personal {
+    background-color: #166fcfc3;
+    width: 30%;
+    text-align: left;
+    float: left;
+    left: 10%;
+    margin-left: 3em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+}
+
+div.welcome#add {
+    background-color: #00d670;
+    width: 30%;
+    text-align: left;
+    float: left;
+    left: 10%;
+    margin-left: 3em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+}
+
+input.btn {
+    position: relative;
+    float: left;
+    color: #00d670;
+}
+
+#buttns {
+    font-weight: bold;
+    font-size: 16pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3.2em;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    left: 28%;
+    padding: 15px 10px;
+    color: white;
+    background-color: #af0049;
+    border: 3px solid black;
+    border-radius: 25% 10%;
+    width: 15%;
+}
+
+#buttns:hover {
+    background-color: #00af32;
+    color: #af0049;
+}

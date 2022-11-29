@@ -1,0 +1,119 @@
+div.main {
+    color: white;
+}
+
+textarea {
+    border: 3px solid black;
+}
+
+#pochetok {
+    padding: 30px;
+}
+
+.welcome {
+    position: relative;
+    /*     left: 35%; */
+}
+
+.welcome#pochetok {
+    margin-bottom: 40px;
+    margin-left: 400px;
+}
+
+div#blogtextfield {
+    text-align: center;
+    background-color: #7E91D3;
+    width: 600px;
+    border: 3px solid black;
+    margin: 20px;
+    display: block;
+    position: relative;
+    left: 14%;
+    width: 70%;
+    padding: 50px 50px;
+    height: 550px;
+    border-radius: 25% 10%;
+}
+
+div.blogpart {
+    padding: 20px 20px;
+    background-color: #00d670;
+    /* #7E91D3 */
+    left: 20%;
+    width: 30%;
+    border: 3px solid black;
+    margin: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 25% 10%;
+}
+
+#blueblogpart {
+    background-color: rgb(180, 128, 229);
+    /* #7E91D3 */
+    text-align: center;
+    width: 15%;
+    margin-bottom: 60px;
+    margin-right: 500px;
+}
+
+
+.arrow {
+    margin-bottom: 2em;
+    text-align: center;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+hr {
+    border-top: 3px solid white;
+}
+
+.card {
+    position: relative;
+    float: left;
+    left: 15%;
+    width: 70%;
+    margin-bottom: 30px;
+    border: 3px solid black;
+}
+
+#footballtext {
+    background-color: #4a80dd;
+}
+
+#techtext {
+    background-color: #dd4a51;
+}
+
+#bookstext {
+    background-color: #d4a43e;
+    /* #ddaf4a */
+}
+
+.textcard {
+    display: none;
+}
+
+#purpleblogpart {
+    background-color: #bd4add;
+}
+
+#usertitleformat {
+    font-size: 24pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#usertextformat {
+    text-align: justify;
+    font-weight: bold;
+}

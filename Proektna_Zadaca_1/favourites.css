@@ -1,0 +1,135 @@
+div.welcome {
+    /* background-color: #0e66c7; */
+    left: 32.5%;
+}
+
+div.welcome#personal2 {
+    background-color: #166fcfc3;
+    width: 30%;
+    left: 10%;
+    /*     margin-right: 0px; */
+    margin-left: 3em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    margin-top: 500px;
+    text-align: justify;
+    position: absolute;
+}
+
+img#slikasquier1 {
+    border: 1px solid black;
+    border-radius: 10%;
+    float: left;
+    position: relative;
+    right: 5%;
+}
+
+img#slikasquier2 {
+    border: 1px solid black;
+    border-radius: 10%;
+    float: left;
+    position: relative;
+    left: 20%;
+}
+
+img.foodslika1 {
+    left: 5%;
+}
+
+div.welcome#personal {
+    text-align: justify;
+    /* white-space: nowrap; */
+    position: relative;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+    margin-bottom: 2em;
+    text-align: center;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.guitararrow1 {
+    position: relative;
+    float: right;
+    margin-top: 110px;
+    right: 3%;
+}
+
+.guitararrow2 {
+    position: relative;
+    float: left;
+    margin-top: 110px;
+    margin-left: 0px;
+    left: 0%;
+}
+
+.ledarrow {
+    margin-left: 200px;
+}
+
+a img#slikaled1 {
+    /*istiot id od home.css samo go nadograduvam*/
+    float: left;
+    position: relative;
+    border-radius: 5%;
+    left: 10%;
+    border: black 3px solid;
+    border-radius: 10%;
+    margin: 0.5em 4em;
+    margin-bottom: 1em;
+    padding: 0px;
+}
+
+img#slikifilm {
+    /*istiot id od home.css samo go nadograduvam*/
+    float: left;
+    position: relative;
+    border-radius: 5%;
+    left: 10%;
+    border: black 3px solid;
+    border-radius: 10%;
+    margin: 0.5em 2.8em;
+    margin-bottom: 1em;
+    padding: 0px;
+}
+
+#slikifilm.shifted {
+    margin-left: 130px;
+}
+
+img#slikaquestion {
+    margin: 16px;
+    float: left;
+    right: 0%;
+}
+
+img#slikifilm2 {
+    /*istiot id od home.css samo go nadograduvam*/
+    float: left;
+    position: relative;
+    border-radius: 5%;
+    left: 10%;
+    border: black 3px solid;
+    border-radius: 10%;
+    margin: 0.5em 4em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: justify;
+}

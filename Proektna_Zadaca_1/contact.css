@@ -1,0 +1,112 @@
+body {
+    background-color: #d3e3a5e2;
+    /* background-color: #5ca8c1; */
+    /* background-color: #193842; */
+    font-family: 'Comfortaa', cursive;
+    font-stretch: condensed;
+}
+
+div.main {
+    margin-top: 100px;
+}
+
+div.menu a {
+    border: 1px solid black;
+    font-size: 17.2pt;
+    float: right;
+    display: block;
+    background-color: #ea7c0f;
+    color: white;
+    text-align: center;
+    padding: 11px 20px;
+    text-decoration: none;
+}
+
+div.menu a:hover {
+    font-weight: bold;
+    background-color: #fbb40f;
+    color: #132b33;
+}
+
+header div.menu {
+    z-index: 1;
+    overflow: hidden;
+    font-size: 18pt;
+    position: fixed;
+    background-color: #ea7c0f;
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+
+div#currentloc {
+    font-weight: bold;
+    color: #132b33;
+    text-align: center;
+    padding-top: 0.8ex;
+    padding-left: 3.1ex;
+    /*     padding: 1ex 1ex 1ex 1ex; */
+}
+
+div.welcome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: static;
+    left: 25%;
+    padding: 16px 30px;
+    color: white;
+    background-color: #316d81;
+    border: 3px solid black;
+    border-radius: 25% 10%;
+    width: 50%;
+    overflow: none;
+    text-align: center;
+}
+
+.welcome#pochetok {
+    margin-bottom: 40px;
+    margin-left: 400px;
+}
+
+.arrow {
+    margin-bottom: 2em;
+    text-align: center;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+div.welcome#welcome2 {
+    position: relative;
+    width: 50%;
+    text-align: center;  
+    float: left;
+    background-color: #7E91D3;
+    width: fit-content;
+    left: 20%;
+}
+
+img#slikagmail {
+    right: 3%;
+    position: relative;
+    float: right;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+img#slikacontact1 {
+    left: 3%;
+    margin: 0px 0px;
+    position: relative;
+    float: left;
+    border: 3px solid black;
+    border-radius: 100%;
+}
