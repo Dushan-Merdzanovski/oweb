@@ -1,4 +1,4 @@
-var number_posts = 4;
+var number_posts = 6;
 
 var countlikes = [];
 for (var i = 0; i < number_posts; i++) {
