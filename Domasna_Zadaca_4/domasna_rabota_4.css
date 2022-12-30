@@ -1,0 +1,121 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #00c8c892;
+    margin-top: 20px;
+}
+
+header {
+    color: white;
+    background-color: rgb(118, 0, 0);
+    position: relative;
+    left: 15%;
+    width: fit-content;
+    border: 2px black solid;
+    border-radius: 10% 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+#explanation {
+   /*  color: white; */
+    background-color: mediumspringgreen;
+    position: relative;
+    float: right;
+    right: 10%;
+    margin-top: 3%;
+    padding: 14px;
+    border: 2px black solid;
+    border-radius: 10%;
+    width: 30%;
+}
+
+th {
+    background-color: rgb(118, 0, 0);
+    color: white;
+}
+
+td#winner {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+
+.final {
+    background-color: gold;
+    font-weight: bold;
+}
+
+.semifinal {
+    background-color: blueviolet;
+    color: white;
+}
+.quarterfinal{
+    background-color: blue;
+    color: white;   
+}
+.roundof16 {
+    background-color: lightcoral;
+}
+.group{
+    background-color: gray;
+    color: white;  
+}
+
+#trophy {
+    border: 2px black solid;
+    border-radius: 10%;
+    margin: 20px 160px;
+    margin-top: 2%;
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 600px;
+}
+
+#finalwin {
+    background-color: gold;
+    font-weight: bold;
+    color: black;
+}
+#finalloser {
+    background-color: maroon;
+    font-weight: bold;
+    color: white;
+}
+
+td#draw {
+    background-color: silver;
+    font-weight: bold;
+    color: black;
+}
+
+td#loser {
+    background-color: red;
+    color: white;
+}
+
+input {
+    border: black solid 2px;
+    text-align: center;
+    left: 20%;
+}
+
+table {
+    position: relative;
+    float: left;
+    border-collapse: collapse;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    left: 2%;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+/*   tr:nth-child(even) {
+    background-color: #dddddd;
+  } */

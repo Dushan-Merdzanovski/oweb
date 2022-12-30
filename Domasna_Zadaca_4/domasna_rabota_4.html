@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TeamFilter World Cup 2022 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="domasna_rabota_4.css">
+</head>
+
+<body>
+    <header>
+        <h1>Table for The World Cup 2022 Qatar</h1>
+        <h2>Type something in the input field to search the table for Teams or Stadiums in Qatar!</h2>
+        <input id="input-pole" type="text" placeholder="Type a Team, Stadium or Phase!" size="40pt">
+    </header>
+
+
+    <div id="explanation">
+        <h2>This is the instruction manual to using this World Cup Filtering tool!</h2>
+        <h2>You can sort the games by using the names of the Countries competing in the Cup,
+            by using the names of the 9 Cup Stadiums or by using the name of the Game Phase you want to check out!</h2>
+        <h2>Green represents a win, red a loss and silver is a tie or draw! I also color coded the Game Phases!</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Home Team</th>
+                <th>Guest Team</th>
+                <th>Stadium</th>
+                <th>Phase</th>
+            </tr>
+        </thead>
+
+        <tbody id="worldcup-tabela">
+            <tr>
+                <td id="loser">Qatar</td>
+                <td id="winner">Ecuador</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">England</td>
+                <td id="loser">Iran</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Senegal</td>
+                <td id="winner">Netherlands</td>
+                <td>ats</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">USA</td>
+                <td id="draw">Wales</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+
+            <tr>
+                <td id="loser">Argentina</td>
+                <td id="winner">Saudi Arabia</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Denmark</td>
+                <td id="draw">Tunisia</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Mexico</td>
+                <td id="draw">Poland</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">France</td>
+                <td id="loser">Australia</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Morocco</td>
+                <td id="draw">Croatia</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Germany</td>
+                <td id="winner">Japan</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Spain</td>
+                <td id="loser">Costa Rica</td>
+                <td>ats</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Belgium</td>
+                <td id="winner">Canada</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Switzerland</td>
+                <td id="loser">Cameroon</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Uruguay</td>
+                <td id="draw">South Korea</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Portugal</td>
+                <td id="loser">Ghana</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Brazil</td>
+                <td id="loser">Serbia</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Wales</td>
+                <td id="winner">Iran</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Qatar</td>
+                <td id="winner">Senegal</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Netherlands</td>
+                <td id="draw">Ecuador</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">England</td>
+                <td id="draw">USA</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Tunisia</td>
+                <td id="winner">Australia</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Poland</td>
+                <td id="loser">Saudi Arabia</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">France</td>
+                <td id="loser">Denmark</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Argentina</td>
+                <td id="loser">Mexico</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Japan</td>
+                <td id="winner">Costa Rica</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Belgium</td>
+                <td id="winner">Morocco</td>
+                <td>ats</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Croatia</td>
+                <td id="loser">Canada</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Spain</td>
+                <td id="draw">Germany</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Cameroon</td>
+                <td id="draw">Serbia</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">South Korea</td>
+                <td id="winner">Ghana</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Brazil</td>
+                <td id="loser">Switzerland</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Portugal</td>
+                <td id="loser">Uruguay</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Ecuador</td>
+                <td id="winner">Senegal</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Netherlands</td>
+                <td id="loser">Qatar</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Iran</td>
+                <td id="winner">USA</td>
+                <td>ats</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Wales</td>
+                <td id="winner">England</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Tunisia</td>
+                <td id="loser">France</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Australia</td>
+                <td id="loser">Denmark</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Poland</td>
+                <td id="winner">Argentina</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Saudi Arabia</td>
+                <td id="winner">Mexico</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="draw">Croatia</td>
+                <td id="draw">Belgium</td>
+                <td>aba</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Canada</td>
+                <td id="winner">Morocco</td>
+                <td>ats</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Japan</td>
+                <td id="loser">Spain</td>
+                <td>kha</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Costa Rica</td>
+                <td id="winner">Germany</td>
+                <td>abs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">South Korea</td>
+                <td id="loser">Germany</td>
+                <td>edu</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Ghana</td>
+                <td id="winner">Uruguay</td>
+                <td>ajs</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="loser">Serbia</td>
+                <td id="winner">Switzerland</td>
+                <td>974</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Cameroon</td>
+                <td id="loser">Brazil</td>
+                <td>lus</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td id="winner">Netherlands</td>
+                <td id="loser">USA</td>
+                <td>kha</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">Argentina</td>
+                <td id="loser">Australia</td>
+                <td>aba</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">France</td>
+                <td id="loser">Poland</td>
+                <td>ats</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">England</td>
+                <td id="loser">Senegal</td>
+                <td>abs</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="loser">Japan</td>
+                <td id="winner">Croatia</td>
+                <td>ajs</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="loser">Brazil</td>
+                <td id="winner">South Korea</td>
+                <td>974</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">Morocco</td>
+                <td id="loser">Spain</td>
+                <td>edu</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">Portugal</td>
+                <td id="loser">Switzerland</td>
+                <td>lus</td>
+                <td>Round of 16</td>
+            </tr>
+            <tr>
+                <td id="winner">Croatia</td>
+                <td id="loser">Brazil</td>
+                <td>edu</td>
+                <td>Quarter-finals</td>
+            </tr>
+            <tr>
+                <td id="loser">Netherlands</td>
+                <td id="winner">Argentina</td>
+                <td>lus</td>
+                <td>Quarter-finals</td>
+            </tr>
+            <tr>
+                <td id="winner">Morocco</td>
+                <td id="loser">Portugal</td>
+                <td>ats</td>
+                <td>Quarter-finals</td>
+            </tr>
+            <tr>
+                <td id="loser">England</td>
+                <td id="winner">France</td>
+                <td>abs</td>
+                <td>Quarter-finals</td>
+            </tr>
+
+            <tr>
+                <td id="winner">Argentina</td>
+                <td id="loser">Croatia</td>
+                <td>lus</td>
+                <td>Semi-finals</td>
+            </tr>
+            <tr>
+                <td id="winner">France</td>
+                <td id="loser">Morocco</td>
+                <td>aba</td>
+                <td>Semi-finals</td>
+            </tr>
+            <tr>
+                <td id="winner">Croatia</td>
+                <td id="loser">Morocco</td>
+                <td>kha</td>
+                <td>Third place play-off</td>
+            </tr>
+            <tr class="final">
+                <td id="finalwin">Argentina</td>
+                <td id="finalloser">France</td>
+                <td>lus</td>
+                <td>Final</td>
+            </tr>
+        </tbody>
+    </table>
+    <img id="trophy" src="FIFA_World_Cup_Trophy.jpg">
+    <img id="trophy" src="mbappmessi.jpg" style="width: 450px; height: 300px;">
+    <img id="trophy" src="lusail.jpg" style="width: 450px; height: 340px;">
+    <img id="trophy" src="messi1.jpg" style="width: 450px; height: 260px;">
+    <img id="trophy" src="football.webp" style="width: 450px; height: 315px;">
+
+    <script src="domasna_rabota_4.js"></script>
+</body>
+
+</html>
