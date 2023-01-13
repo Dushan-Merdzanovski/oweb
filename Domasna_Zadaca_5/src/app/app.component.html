@@ -1,0 +1,24 @@
+<div class="top-menu">
+
+    <img class="logo"
+         src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">
+</div>
+
+<div class="courses">
+
+    <!-- KOD OD VEZBI -->
+    <!-- za doma namesto so crs, so event emitter treba da se loadne-->
+    <!-- ova e prvichniot statichki kod -->
+    <!-- <app-course-card [crs]="coreCourse" (click) = "onAppViewed()"></app-course-card> na cela komponenta se trigerira eventot, kaj i da kliknam ako e vaka -->
+    <!-- <app-course-card [crs]="rxJS"></app-course-card>
+         <app-course-card [crs]="ngRX"></app-course-card>  ova beshe prethodno-->
+
+    <app-course-card *ngFor="let kurs of kursevi; index as i; first as prv; last as posleden; even as neparen"
+    [class.is-first] = "prv" 
+    [class.is-last] = "posleden" 
+    [class.is-even] = "neparen"
+    (kursdetali) = "onAppViewed($event)"
+    [indeks]="i+1"
+    [crs] = "kurs"></app-course-card>
+<!-- (click) = "onAppViewed()" mesto (kursdetali) -->
+</div>
