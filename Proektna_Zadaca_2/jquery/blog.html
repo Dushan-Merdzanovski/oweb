@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Blog Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <!-- 6 elementi ovde -->
+            <a href="contact.html">Contact</a>
+            <a href="survey.html">Survey</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="favourites.html">Favourites</a>
+            <a href="home.html">Home</a>
+            <div id="currentloc">Currently in Blog Page</div>
+        </div>
+    </header>
+
+    <img id="slikacontact1" src="images/writing1.jpg" alt="contact" width="250px" height="250px">
+    <img id="slikagmail" src="images/writing2.jpg" alt="gmail" width="250px" height="250px">
+
+    <div class="main">
+        <div id="pochetok" class="welcome">
+            <h1 style="font-size: 24pt;"><em><strong>This is the writing corner of this Web-Site!</strong></em></h1>
+            <h2 style="font-size: 18pt; font-weight: bold;">You can write texts about a topic you're interested in here,
+                or read some of the texts I have curated for you!</h2>
+            <div class="arrow down">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+
+        <div id="blogtextfield"><label>
+                <h2 style="font-weight: bold; margin: 20px 0px;">Write some text!</h2><br>
+                <form action="#">
+                    <textarea class="subjecttext" rows="2" cols="30"
+                        placeholder="Enter the subject of your Text here!"></textarea>
+                    <textarea class="textfield" rows="8" cols="80"
+                        placeholder="Start writing some text!"></textarea><!-- rows="8" cols="85" -->
+                    <button id="publishbutton" type="button" class="btn btn-primary"
+                        style="font-weight: bold; margin:10px 40px;">Publish Text on
+                        the Blog</button>
+                    <button type="reset" class="btn btn-warning" style="font-weight: bold; margin:10px 40px;">Clear
+                        Field</button>
+            </label></form>
+        </div>
+
+        <div class="blogpart">
+            <h2 style="font-size: 18pt; font-weight: bold; text-align: center;">What topic are you interested
+                in?<br>Pick one!</h2>
+            <div class="arrow right" style="float: right; margin-right: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+
+        <div class="blogpart" id="blueblogpart">
+            <button id="footballbtn" type="button" class="btn btn-primary choicebutton"
+                style="margin: 5px 5px; font-weight: bold;">Football</button>
+            <button id="footballbtn" type="button" class="btn btn-danger choicebutton"
+                style="margin: 5px 5px; font-weight: bold;">Technology</button>
+            <button id="footballbtn" type="button" class="btn btn-warning choicebutton"
+                style="margin: 5px 5px; font-weight: bold;">Books</button>
+        </div>
+
+        <div class="card textcard" id="footballtext">
+            <!-- <img class="card-img-top" src="images/instapic1.png" alt="Card image" style="width:100%"> -->
+            <div class="card-body">
+                <h1 class="card-title" style="font-size: 24pt; text-align: center;"><em><strong>Brazil beats Switzerland
+                            🇧🇷1-0🇨🇭! #WCQATAR2022</strong></em>
+                    <h5 style="color:black;"> 28/11/2022, 19:23:12</h5>
+                </h1>
+                <hr>
+                <h4 class="card-text" style="text-align: justify; font-weight: bold;">DOHA, Qatar — Brazil's problem, in
+                    the end, was not so much that Neymar missed his country's second game at the World Cup. Brazil still
+                    had plenty of scoring options, after all, arguably more than any other team in the tournament. But
+                    the rules of soccer require that the ball actually goes into the net to count, and through 82
+                    agonizing and frustrating minutes Brazil's array of attacking talent simply could not make that
+                    happen.
+                    Richarlison sent a shot wide. Raphinha probed the right side. Vinícius Júnior had a goal disallowed
+                    for offside. Rodrygo came on, and then so did Bruno Guimaraes and Antony and Gabriel Jesus. Nothing.
+                    <br><br>Casemiro's goal, when it finally came, was one to remember. It was off his foot so fast, and
+                    was so well-placed, that the Swiss goalkeeper could only watch it pass like a man admiring a bullet
+                    train from the platform. But it did the job, which was more than Brazil's forwards could say on
+                    Monday.
+                    Neymar, who missed Monday's game with a swollen ankle sustained in Brazil's opener, will be back
+                    soon enough. When he returns, he will be fortunate to score a goal as good as the one that, on
+                    Monday, almost didn't come.
+                </h4>
+                <p class="card-text"><button type="button" class="btn btn-success closebutton"
+                        style="margin: 0px 10px; float: right; font-weight: bold; margin-bottom: 10px;">Close</button>
+                </p>
+            </div>
+        </div>
+
+        <div class="card textcard" id="techtext">
+            <div class="card-body">
+                <h1 class="card-title" style="font-size: 24pt; text-align: center;"><em><strong>🐦Elon Musk Takes On
+                            Apple's Power, Setting Up a Clash🐦</strong></em>
+                    <h5 style="color:black;"> 28/11/2022, 19:23:12</h5>
+                </h1>
+                <hr>
+                <h4 class="card-text" style="text-align: justify; font-weight: bold;">SAN FRANCISCO — “What's going on
+                    here @tim_cook?” Elon Musk tweeted on Monday to Tim Cook, the chief executive of Apple, igniting a
+                    spat between the world's richest man and the world's most valuable public company.
+
+                    In a series of tweets over 15 minutes, Mr. Musk, the new owner of Twitter, accused Apple of
+                    threatening to withhold Twitter from its App Store, a move that would limit some new users from
+                    downloading the app. The action would amount to censorship, Mr. Musk said, with no explanation from
+                    Apple for why Twitter would be blocked. He added that Apple had also reduced its advertising
+                    spending on Twitter.
+
+                    Mr. Musk's purchase of Twitter has upended the relative harmony between it and Apple. As an
+                    outspoken user of the platform, with nearly 120 million followers, Mr. Musk has often used Twitter
+                    to needle business rivals like Bill Gates or Sam Bankman-Fried. His spat with Mr. Cook could become
+                    “a revolution against online censorship in America,” Mr. Musk tweeted on Monday.</h4>
+                <p class="card-text"><button type="button" class="btn btn-success closebutton"
+                        style="margin: 0px 10px; float: right; font-weight: bold; margin-bottom: 10px;">Close</button>
+                </p>
+            </div>
+        </div>
+
+        <div class="card textcard" id="bookstext">
+            <div class="card-body">
+                <h1 class="card-title" style="font-size: 24pt; text-align: center;"><em><strong>📚After Swearing Off
+                            Winds
+                            of Winter Updates, George R.R. Martin Gives a Winds of Winter Update</strong></em>
+                    <h5 style="color:black;"> 28/11/2022, 19:23:12</h5>
+                </h1>
+                <hr>
+                <h4 class="card-text" style="text-align: justify; font-weight: bold;">Just two months after swearing off
+                    giving Winds of Winter updates, perpetual updater and writer of Winds of Winter George R.R. Martin
+                    has an announcement: he has a Winds of Winter update.
+                    Who's to say what prompted his decision to recently blurt out on a livestream that the book—over a
+                    decade in the making—is roughly 75% done. Maybe Martin forgot he'd told people to shut up and let
+                    him finish, because he's been updating people on this book for over a decade now and just can't help
+                    himself. <br><br>Maybe he's in that post-House of the Dragon finale glow and just got caught up in
+                    the hype. Maybe this is the actual final update, a warning that now that we know just how far along
+                    he is we can roughly estimate how much longer we need to wait for The Winds of Winter. Maybe he
+                    hopes we'll be so distracted by trying to map out that guesstimate we'll give him the time to finish
+                    the last 25%.</h4>
+                <p class="card-text"><button type="button" class="btn btn-success closebutton"
+                        style="margin: 0px 10px; float: right;  font-weight: bold; margin-bottom: 10px;">Close</button>
+                </p>
+            </div>
+        </div>
+
+        <div class="blogdiv">
+            <div class="card textcard usergeneratedcontent" id="purpleblogpart">
+                <div class="card-body" style="padding-top: 20px; text-align: center;">
+                    <h1 class="card-title" style="font-size: 24pt; text-align: center;"><em><strong>User generated
+                                content:</strong></em></h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="blogwithjquery.js"></script>
+</body>
+
+</html>

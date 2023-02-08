@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Survey Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <!-- 6 elementi ovde -->
+            <a href="contact.html">Contact</a>
+            <a href="survey.html">Survey</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="favourites.html">Favourites</a>
+            <a href="home.html">Home</a>
+            <div id="currentloc">Currently in Survey Page</div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div><img id="slikaskijanje" src="images/survey1.png" alt="Survey1" width="200px" height="200px"></div>
+        <div class="welcome" id="pochetok">
+            <h1><em>Welcome to the Survey (Анкета) Page!</em></h1>
+            <h2>Here you can describe your experience and give me feedback:</h2>
+            <div class="arrow down">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+
+        <form method="post" action="#">
+            <input type="hidden" name="recipient" value="dusan@gmail.com">
+            <input type="hidden" name="subject" value="Survey Form">
+
+            <div class="welcome" id="personal">
+                <h1>Personal information:</h1>
+            </div>
+            <div class="welcome" id="personal">
+                <h2>Your name is?</h2>
+                <label>
+                    <input name="name" type="text" size="25" placeholder="ex. Душан Мерџановски" required>
+                </label>
+            </div>
+            <div class="welcome" id="personal">
+                <h2>Your email is?</h2>
+                <label>
+                    <input name="email" type="text" size="25" placeholder="ex. dusan.merdzanovski@gmail.com" required>
+                </label>
+            </div>
+
+            <img id="slikapersonal" src="images/personal2.jpg" width="520px" height="160px">
+
+            <div class="welcome" id="personal">
+                <h2>Which age group do you belong to?</h2>
+                <label><input name="age" type="radio" value="bel18">0-18</label><br>
+                <label><input name="age" type="radio" value="bel25">19-25</label><br>
+                <label><input name="age" type="radio" value="bel35">26-35</label><br>
+                <label><input name="age" type="radio" value="bel50">36-50</label><br>
+                <label><input name="age" type="radio" value="bel65">51-65</label><br>
+                <label><input name="age" type="radio" value="bel80">66-80</label><br>
+                <label><input name="age" type="radio" value="bel100">81-100</label><br>
+            </div>
+
+            <div class="welcome" id="welcome2">
+                <h1>Questions about the page:</h1>
+                <img id="slikaquestion" src="images/questionmark1.jpg" alt="questionmark" width="200px" height="200px">
+            </div>
+            <div class="welcome" id="welcome2">
+                <h2>Which page did you like the most?</h2>
+                <label><input name="pages" type="radio" value="Home">&#127968Home</label><br>
+                <label><input name="pages" type="radio" value="Favourites">&#127775Favourites</label><br>
+                <label><input name="pages" type="radio" value="Gallery">&#128248Gallery</label><br>
+                <label><input name="pages" type="radio" value="Survey">&#128203Survey</label><br>
+                <label><input name="pages" type="radio" value="Blog">&#9997Blog</label><br>
+                <label><input name="pages" type="radio" value="Contact">&#128222Contact</label><br>
+            </div>
+            <div class="welcome" id="welcome2">
+                <h2>How would you rate this web page out of 10?</h2>
+                <label>Bad! &#128078 <input type="range" min="0" max="10" value="5" /> 10 &#128081
+                </label>
+            </div>
+            <div class="welcome" id="welcome2">
+                <h2 class="multicolortext1">Do you like the color palette?</h2>
+                <label id="l1"><input name="colors" type="radio" value="yes">Yes</label><br>
+                <label id="l2"><input name="colors" type="radio" value="no">No</label><br>
+            </div>
+
+
+
+            <div class="welcome" id="add">
+                <h1>Suggestions:</h1>
+            </div>
+            <div class="welcome" id="add">
+                <h2>Anything to add?</h2>
+                <textarea name="comments" rows="4" cols="36" placeholder="Enter suggestions here."></textarea>
+                <!-- fix this with bootstrap, napraj da izgleda ubavo -->
+            </div>
+
+            <input id="buttns" type="submit" value="Submit">
+            <input id="buttns" type="reset" value="Clear">
+        </form>
+    </div>
+</body>
+
+</html>
