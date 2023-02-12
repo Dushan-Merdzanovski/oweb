@@ -1,0 +1,64 @@
+.arrow {
+    margin-bottom: 2em;
+    text-align: center;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+div.welcome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    padding: 16px 30px;
+    color: white;
+    background-color: #316d81;
+    border: 3px solid black;
+    border-radius: 25% 10%;
+    width: fit-content;
+}
+
+div.welcome.welcome2 {
+    padding-bottom: 5px;
+    padding-left: 50px;
+    background-color: #7E91D3;
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+
+div.welcome.welcome3 {
+    background-color: #7E91D3;
+    padding-left: 2em;
+    text-align: center;
+    position: relative;
+    margin-left: 2em;
+    width: 30%;
+    float: left;
+}
+
+div.welcometextforgallery {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    padding: 16px 30px;
+    color: white;
+    background-color: #316d81;
+    border: 3px solid black;
+    border-radius: 25% 10%;
+    width: 50%;
+}

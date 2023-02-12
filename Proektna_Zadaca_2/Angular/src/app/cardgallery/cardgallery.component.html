@@ -1,0 +1,32 @@
+<div class="card comments" style="width: 430px; border: 3px solid black; float: right;"><!--   -->
+    <div class="card-body">
+        <h4 class="card-title" style="text-align: center;">Comment section:</h4>
+        <div class="card-text">
+            <ul class="commentslist">
+                <template #commentsection>
+                    
+                </template>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card" style="width:600px; border: 3px solid black;"><!-- float: left; -->
+    <img class="card-img-top" [src]="gallery_block.picURL" alt="Card image" style="width:100%">
+    <div class="card-body">
+        <h4 class="card-title">{{gallery_block.title}}</h4>
+        <p class="card-text" style="display: inline-block;"><button type="button" (click)="addLike()" class="btn btn-danger likebutton" style="margin: 0px 10px;">
+                Like <span class="badge badge-light likecount">{{like_count}}</span></button></p>
+        <p class="card-text" style="display: inline-block;"><button type="button" class="btn btn-primary" style="margin: 0px 10px;">
+                Number of comments <span class="comcount badge badge-light">{{comment_count}}</span></button></p>
+    </div>
+</div>
+<div id="entercomments1"><label style="font-weight: bold; margin: 20px 0px;">Comments and Username:<br>
+        <form action="#">
+            <textarea #commentinput class="commentsinput1" name="commentsinput" rows="2" cols="20"
+                placeholder="Enter your comment here!"></textarea>
+            <textarea #nameinput class="commentsinput2" rows="2" cols="20" placeholder="Enter your Name here!"></textarea>
+            <button type="button" (click)="addChild(nameinput.value, commentinput.value)" class="btn btn-primary commentbutton">Post Comment</button>
+            <button type="reset" class="btn btn-warning" style="margin-left: 10px">Clear Field</button>
+        </form>
+    </label>
+</div>

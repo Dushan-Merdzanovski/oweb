@@ -1,0 +1,13 @@
+hr {
+    border-top: 3px solid #8c8b8b;
+}
+
+li::marker {
+    content: '>> ';
+    color: red;
+    font-size: 1.2em;
+}
+
+li {
+    padding:  1em;
+}

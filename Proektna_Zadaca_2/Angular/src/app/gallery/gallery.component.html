@@ -1,0 +1,13 @@
+<div class="main">
+    <app-contentblock [home_block]="intro_block_gallery"></app-contentblock>
+
+    <div class="container miniinsta">
+        <ng-container *ngFor="let item of card_content_gallery">
+            <app-cardgallery *ngIf="item.id < 5" [gallery_block]="item"></app-cardgallery>
+            <button *ngIf="item.id == 4 && status_ofaddPostbutton" type="button" class="btn btn-success newpost" (click)="addPost()">Add Picture</button>
+
+            <app-cardgallery *ngIf="item.id==5 && numberofclicks_ofaddPostbutton>=1" [gallery_block]="item"></app-cardgallery>
+            <app-cardgallery *ngIf="item.id==6 && numberofclicks_ofaddPostbutton==2" [gallery_block]="item"></app-cardgallery>
+        </ng-container>
+    </div>
+</div>

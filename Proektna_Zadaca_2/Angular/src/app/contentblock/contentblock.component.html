@@ -1,0 +1,21 @@
+<div class="welcome" [ngClass]="set_classes_welcome()">
+    <h1><em>{{home_block.title}}</em></h1>
+    <h2 *ngIf="home_block.content_text1" [ngStyle]="">{{home_block.content_text1}}</h2>
+    <h2 *ngIf="home_block.content_text2">{{home_block.content_text2}}</h2>
+    <div *ngIf="home_block.hasarrow">
+        <div class="arrow down">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    </div>
+    <div *ngIf="home_block.id == 2">
+        <ul>
+            <li><h2>I studied at SUGS "Orce Nikolov" - Skopje</h2></li>
+            <li><h2>I like to play the Guitar</h2></li>
+            <li><h2>I love skiing & swimming</h2></li>
+            <li><h2>⚡This is my third year at FEIT⚡</h2></li>
+            <li><h2>Big fan of Stephen King</h2></li>
+            <li><h2>Science-fiction books are my favourite</h2></li>
+        </ul>
+    </div>
+    <div *ngIf="home_block.picURL">
+        <img id="slikamatura" src={{home_block.picURL}} alt="Dushan Slika" [ngStyle]="set_style_slikimaturaskijanje()">
+    </div>
+</div>

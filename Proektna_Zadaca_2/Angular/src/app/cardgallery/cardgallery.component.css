@@ -1,0 +1,32 @@
+.card {
+    margin: 0px 26px;
+    display: inline-block;
+    /*     position: relative; */
+    /*float: left; */
+}
+
+div#entercomments1 {
+    border-radius: 25% 10%;
+    background-color: #7E91D3;
+    width: 600px;
+    border: 3px solid black;
+    margin: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 100px;
+}
+
+label {
+    text-align: center;
+}
+
+.comments {
+    /* border-radius: 25% 10%;  */
+    max-height: 580px;
+    overflow: scroll;
+}
+
+textarea {
+    border: 3px solid black;
+}
